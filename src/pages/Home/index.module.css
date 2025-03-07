@@ -1,0 +1,20 @@
+.statisticCard {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.statisticCard:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.notice {
+  margin-top: 24px;
+}
+
+.notice p {
+  margin-bottom: 8px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.65);
+} 

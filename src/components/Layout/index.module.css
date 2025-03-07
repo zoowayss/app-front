@@ -1,0 +1,68 @@
+.logo {
+  height: 64px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoText {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.header {
+  padding: 0 24px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  z-index: 10;
+}
+
+.trigger {
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+  padding: 0 12px;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.content {
+  margin: 24px;
+  padding: 24px;
+  background: #fff;
+  min-height: 280px;
+  border-radius: 4px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.userDropdown {
+  cursor: pointer;
+  padding: 0 12px;
+  color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.userDropdown:hover {
+  color: #1890ff;
+} 

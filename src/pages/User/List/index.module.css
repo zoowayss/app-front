@@ -1,0 +1,13 @@
+.container {
+    min-height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.searchInput {
+    width: 200px;
+} 
